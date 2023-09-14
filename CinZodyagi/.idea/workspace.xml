@@ -5,20 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="46eabe4b-db90-49f3-97c9-b743ed47156b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CinZodyagi.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CinZodyagiHesaplama/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CinZodyagiHesaplama/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CinZodyagiHesaplama/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CinZodyagiHesaplama/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CinZodyagiHesaplama/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CinZodyagiHesaplama/CinZodyagiHesaplama.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CinZodyagiHesaplama/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SinifiGecmeDurumu/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SinifiGecmeDurumu/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

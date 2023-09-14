@@ -13,17 +13,19 @@ public class Main {
         System.out.print("Şifrenizi Girin: ");
         Sifre = input.nextLine();
 
-        if(KullaniciAdi.equals("Java") && Sifre.equals("123")) {
-            System.out.print("Giriş Yaptınız");
 
+
+        switch (Sifre) {
+
+            case 1 : System.out.print("Sifre Doğru");
+            break;
         }
-        else if (Sifre.equals("123")){
-        }
-        System.out.print("Şifre Yanlış");
 
 
-    }
-}
+
+
+    }}
+
 
 
 
