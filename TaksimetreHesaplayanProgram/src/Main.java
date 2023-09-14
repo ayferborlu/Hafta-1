@@ -20,8 +20,5 @@ public static void main(String[] args) {
 
     System.out.print("AçılışÜcreti ile beraber toplam tutar: " + total);
 
-
-
-
 }
 }
