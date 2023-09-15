@@ -33,87 +33,83 @@ public class Main {
         if (ay.equals("Mart")) {
             if (gun > 20)
                 burc = "Balık";
-         else
-            burc = "Koç";
+            else
+                burc = "Koç";
 
 
         }
         if (ay.equals("Nisan")) {
             if (gun > 20)
                 burc="Koç";
-         else
-            burc="Boğa";
+            else
+                burc="Boğa";
         }
 
         if (ay.equals("Mayıs")) {
             if (gun > 21)
 
-            burc= "Boğa";
-         else
-            burc= "İkizler";
+                burc= "Boğa";
+            else
+                burc= "İkizler";
         }
 
         if (ay.equals("Haziran")) {
             if (gun > 22)
-            burc= "İkizler";
+                burc= "İkizler";
             else
-            burc="Yengeç ";
+                burc="Yengeç ";
         }
 
         if (ay.equals("Temmuz")) {
             if (gun > 23)
 
-            burc="Yengeç";
-         else
-            burc="Aslan";
+                burc="Yengeç";
+            else
+                burc="Aslan";
         }
 
         if (ay.equals("Ağustos")) {
             if (gun > 22)
 
-            burc="Aslan";
-         else
-            burc=" Başak";
+                burc="Aslan";
+            else
+                burc=" Başak";
         }
 
         if (ay.equals("Eylül")) {
             if (gun > 22)
 
-          burc="Başak";
+                burc="Başak";
             else
-            burc="Terazi";
+                burc="Terazi";
         }
 
         if (ay.equals("Ekim")) {
             if (gun > 22)
 
-            burc="Terazi";
+                burc="Terazi";
             else
-            burc="Akrep";
+                burc="Akrep";
         }
 
         if (ay.equals("Kasım")) {
             if (gun > 22)
 
-            burc="Akrep";
+                burc="Akrep";
             else
-            burc=" Oğlak";
+                burc=" Oğlak";
         }
 
         if (ay.equals("Aralık")) {
             if (gun > 22)
 
-            burc="Oğlak";
-         else
-            burc="Yay";
+                burc="Oğlak";
+            else
+                burc="Yay";
         }
 
         System.out.println(gun+" "+ay+" "+" gününde doğduysanız burcunuz da "+burc+" olur");
 
 
-
-
-
-
-
-}}
+    }
+}
