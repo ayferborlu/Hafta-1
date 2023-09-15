@@ -15,7 +15,7 @@ public class Main {
         if ((ay > 0) && (gun < 13)) {
             if (ay == 1) {
             }
-            if (gun <= 21) {
+            if (gun > 21) {
                 System.out.print("Burcunuz Oğlak");
             } else {
                 System.out.print("Burcunuz Kova");
@@ -24,14 +24,14 @@ public class Main {
 
         }
         if (ay == 2) {
-            if (gun <= 19) {
+            if (gun > 19) {
                 System.out.print("Burcunuz Kova");
             } else {
                 System.out.print("Burcunuz Balık");
             }
         }
         if (ay == 3) {
-            if (gun <= 20) {
+            if (gun > 20) {
                 System.out.print("Burcunuz Balık");
             } else {
                 System.out.print("Burcunuz Koç");
@@ -39,7 +39,7 @@ public class Main {
 
         }
         if (ay == 4) {
-            if (gun <= 20) {
+            if (gun > 20) {
             }
             System.out.print("Burcunuz Koç");
         } else {
@@ -47,7 +47,7 @@ public class Main {
         }
 
         if (ay == 5) {
-            if (gun <= 21) {
+            if (gun > 21) {
             }
             System.out.print("Burcunuz Boğa");
         } else {
@@ -55,7 +55,7 @@ public class Main {
         }
 
         if (ay==6) {
-            if (gun <= 22) {
+            if (gun > 22) {
             }
             System.out.print("Burcunuz İkizler");
         } else {
@@ -63,7 +63,7 @@ public class Main {
         }
 
         if (ay==7) {
-            if (gun <= 23) {
+            if (gun > 23) {
             }
             System.out.print("Burcunuz Yengeç");
         } else {
@@ -71,7 +71,7 @@ public class Main {
         }
 
         if (ay==8) {
-            if (gun <=22) {
+            if (gun > 22) {
             }
             System.out.print("Burcunuz Aslan");
         } else {
@@ -79,7 +79,7 @@ public class Main {
         }
 
         if (ay==9) {
-            if (gun <= 22) {
+            if (gun > 22) {
             }
             System.out.print("Burcunuz Başak");
         } else {
@@ -87,7 +87,7 @@ public class Main {
         }
 
         if (ay==10) {
-            if (gun <= 22) {
+            if (gun > 22) {
             }
             System.out.print("Burcunuz Terazi");
         } else {
@@ -95,7 +95,7 @@ public class Main {
         }
 
         if (ay==11) {
-            if (gun <= 22) {
+            if (gun > 22) {
             }
             System.out.print("Burcunuz Yay");
         } else {
@@ -103,7 +103,7 @@ public class Main {
         }
 
         if (ay==12) {
-            if (gun <= 22) {
+            if (gun > 22) {
             }
             System.out.print("Burcunuz Oğlak");
         } else {
