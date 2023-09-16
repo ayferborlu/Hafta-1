@@ -5,21 +5,20 @@ public class Main {
 
         int sayi;
         int toplam=0;
-        boolean tek;
+        boolean tek=false;
 
         Scanner input= new Scanner(System.in);
 
         do {
             System.out.print("Sayı Giriniz: ");
             sayi = input.nextInt();
-
-            if( sayi%2==0 &&4==0){
-            toplam=toplam+sayi;
-                tek=sayi%2==1;
-
-
+            if( sayi%4==0){
+                toplam=toplam+sayi;
             }
-        } while (!tek );
+            if(sayi%2==1) {
+            tek=true;
+            }
+        } while (!tek);
         System.out.print("Toplam: "+toplam);
 
 
