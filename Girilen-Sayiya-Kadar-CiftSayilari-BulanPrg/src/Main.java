@@ -17,7 +17,7 @@ public class Main {
 
 
             // if ile koşullarımızı belirttik
-            if((i % 3 ==0) && (i % 4 ==0)) {
+            if((i % 3 ==0) && i % 4 ==0) {
                 toplam=toplam+sayi;
                 System.out.print("toplam" + sayi);
                
