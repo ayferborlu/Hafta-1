@@ -1,26 +1,31 @@
 import java.util.Scanner;
+    public class Main {
 
-public class Main {
-    public static void main(String[] args) {
+        static   int usalma(int alt,int us) {
+            int sonuc = 1;
 
-        int sayi,us,i ;
-        int toplam=1;
+            for (int i = 1; i <= us; i++) {
 
-        Scanner input=new Scanner(System.in);
-
-        System.out.print("Üssü alınacak sayı: ");
-        sayi=input.nextInt();
-        System.out.print("Üs olacak sayı: ");
-        us=input.nextInt();
-
-
-
-        for(i=us; i>=1; i--) {
-            toplam *= sayi;
-        }
-
-        System.out.print("Sonuç: " + toplam);
+                sonuc *= alt;
+            }
+            return sonuc;
         }
 
 
+        public static void main(String[] args) {
+            Scanner input = new Scanner(System.in);
+            System.out.print("1.sayıyı girin: " );
+            int alt=input.nextInt();
+            System.out.print("2.sayıyı girin: " );
+            int us=input.nextInt();
+
+            int sonuc = usalma( alt,us);
+            System.out.println(alt + "^" + us + "=" + sonuc);
+
+
+
+
+
+
+        }
     }
